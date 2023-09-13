@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form method="post" name="loginForm">
+        <label for="username">Nom:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="lastName" >Prénom</label>
+        <input type="text" name="lastName" id="lastName"><br>
+        <label for="CP">Code Postal:</label>
+        <input type="text" id="codePostal" name="codePostal">   <br>
+        <input type="button" value="Valider" id="LoginButton" onclick="login()">
+        <!-- <input type="reset" value="Reset"> -->
+    </form>
+    <input type="button" id="AutoCompl"onclick="autoCompl()" value="Auto-Complétion">
+    <input type="button" onclick="reset()" value="Reset">
+</body>
+</html>

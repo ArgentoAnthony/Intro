@@ -12,9 +12,13 @@
     <div id="app">
         <input type="text" id="taskInput" placeholder="Ajouter une tâche">
         <button id ="addTaskButton"onclick="AddTask()">Ajouter</button>
+        <p><input type="button" value="En cours" id="Encours">
+        <input type="button" value ="Terminée" id="Terminee">
+        <input type="button" value ="Tout"></p>
         <ul id="taskList">
             <!-- les tâches seront ajoutées ici -->
         </ul>
+        <p>Nombre de tâches en cours: <span id="tacheEnCours">0</span></p>
     </div>
 </body>
 </html>
